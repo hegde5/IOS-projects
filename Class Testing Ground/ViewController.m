@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBFDog.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *myString = @"Manchester United reddevils";
+    NSArray *wordsInSentence = [myString componentsSeparatedByString:@" "];
+    //NSLog(@"%@", wordsInSentence);
+    NSMutableArray *capitalizeWords = [[NSMutableArray alloc]init];
+//    for(int word = 0; word < [wordsInSentence count]; word ++)
+//    {
+//        NSString *uncapitalizedWord = [wordsInSentence objectAtIndex:word];
+//        NSString *capitalizedWord = [uncapitalizedWord capitalizedString];
+//        [capitalizeWords addObject:capitalizedWord];
+//        
+//    }
+//    NSLog(@"%@",capitalizeWords);
+    MBFDog *dog = [[MBFDog alloc] init];
+    [dog setName:@"Sparky"];
+    NSString *mydogsName = [dog name];
+    NSLog(@"%@",mydogsName);
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning {

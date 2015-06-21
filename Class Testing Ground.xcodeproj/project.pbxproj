@@ -14,6 +14,7 @@
 		657A8BF21B370F32005E2D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657A8BF11B370F32005E2D15 /* Images.xcassets */; };
 		657A8BF51B370F32005E2D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657A8BF31B370F32005E2D15 /* LaunchScreen.xib */; };
 		657A8C011B370F32005E2D15 /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657A8C001B370F32005E2D15 /* Class_Testing_GroundTests.m */; };
+		657A8C0C1B37143D005E2D15 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 657A8C0B1B37143D005E2D15 /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		657A8BFA1B370F32005E2D15 /* Class Testing GroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class Testing GroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657A8BFF1B370F32005E2D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657A8C001B370F32005E2D15 /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		657A8C0A1B37143D005E2D15 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		657A8C0B1B37143D005E2D15 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				657A8BE91B370F32005E2D15 /* AppDelegate.m */,
 				657A8BEB1B370F32005E2D15 /* ViewController.h */,
 				657A8BEC1B370F32005E2D15 /* ViewController.m */,
+				657A8C0A1B37143D005E2D15 /* MBFDog.h */,
+				657A8C0B1B37143D005E2D15 /* MBFDog.m */,
 				657A8BEE1B370F32005E2D15 /* Main.storyboard */,
 				657A8BF11B370F32005E2D15 /* Images.xcassets */,
 				657A8BF31B370F32005E2D15 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				657A8BED1B370F32005E2D15 /* ViewController.m in Sources */,
 				657A8BEA1B370F32005E2D15 /* AppDelegate.m in Sources */,
+				657A8C0C1B37143D005E2D15 /* MBFDog.m in Sources */,
 				657A8BE71B370F32005E2D15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
